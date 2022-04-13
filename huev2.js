@@ -11,6 +11,7 @@
         forceAuth,
         getAuthentification,
         isLinkButtonPressed,
+        getEcosystem,
         types: {
             Authentification,
         }
@@ -21,7 +22,9 @@ module.exports = {
     getAuthentification: require('./src/getAuthentification'),
     isLinkButtonPressed: require('./src/isLinkButtonPressed'),
     forceAuth: require('./src/forceAuth'),
+    getEcosystem: require('./src/getEcosystem'),
     types: {
-        Authentification: require('./src/types/Authentification')
+        Authentification: require('./src/types/Authentification'),
+        HueEcosystem: require('./src/types/HueEcosystem')
     }
 }

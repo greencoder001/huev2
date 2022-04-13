@@ -12,5 +12,8 @@ const Hue = require('./huev2')
     })
 
     // Link button was pressed
-    console.log(authentification)
+
+    // Get Hue Ecosystem
+    const ecosystem = await Hue.getEcosystem(bridge, authentification)
+    console.log(await ecosystem.listDevices())
 })()
