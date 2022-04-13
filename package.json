@@ -1,0 +1,26 @@
+{
+  "name": "huev2",
+  "version": "1.0.0",
+  "description": "A node.js API Wrapper for the Hue API v2",
+  "main": "huev2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greencoder001/huev2.git"
+  },
+  "keywords": [
+    "hue",
+    "hue-api",
+    "api",
+    "v2",
+    "huev2"
+  ],
+  "author": "greencoder001",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greencoder001/huev2/issues"
+  },
+  "homepage": "https://github.com/greencoder001/huev2#readme"
+}
